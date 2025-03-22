@@ -41,3 +41,17 @@ Win Rate	44.90%	Moins de 50%, mais compensé par expectancy
 Expectancy	1.60%	Positif : chaque trade rapporte en moyenne 1.6%
 Kelly Criterion	0.16	Faible mais exploitable
 SQN	1.75	Bon système (entre 1.6 et 2.0 = acceptable à bon)
+
+📌 Conclusion synthétique
+✅ Points forts :
+
+Bon rendement annuel (>15%)
+Bon Calmar et Sortino
+Bon profit factor
+Bonne gestion du risque moyen
+
+⚠️ Points à surveiller :
+
+Volatilité du système (surtout segment 3)
+26% de probabilité de finir en perte (à minimiser)
+Drawdown moyen élevé (-30% !), à confirmer/optimiser
