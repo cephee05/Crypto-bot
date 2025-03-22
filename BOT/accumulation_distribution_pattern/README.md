@@ -6,4 +6,5 @@ sur l'extrême inverse et un takeprofit fixé au double de la distance du stop
 
 
 
+![image](https://github.com/user-attachments/assets/859b65a2-d7f2-4ced-9c1a-e1b8c9ba6426)
 
