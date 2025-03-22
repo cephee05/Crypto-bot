@@ -26,3 +26,18 @@ Segment 2: Final Equity=119989.39, Expectancy=3.65%, Return=19.99%, MaxDD=-8.74%
 Segment 3: Final Equity=68913.99, Expectancy=-4.26%, Return=-31.09%, MaxDD=-32.71%
 Segment 4: Final Equity=89597.08, Expectancy=-1.43%, Return=-10.40%, MaxDD=-23.55%
 Segment 5: Final Equity=125557.65, Expectancy=2.54%, Return=25.56%, MaxDD=-17.01% 
+
+ANALYSE 
+Equity Final	$168,910.08	Performance très correcte
+CAGR	16.08%	Excellent taux composé sur 3 ans
+Annual Return	16.06%	Aligné avec le CAGR, pas trop volatile
+Volatility (Ann.)	20.90%	Volatilité modérée
+Sharpe Ratio	0.77	Correct, mais améliorable
+Sortino Ratio	1.38	Bon, moins pénalisé par les drawdowns
+Calmar Ratio	1.12	👍 Supérieur à 1 : acceptable
+Max. Drawdown	-14.34%	Plutôt sain, si stable
+Profit Factor	1.54	Très bon (au-delà de 1.3, c’est fiable)
+Win Rate	44.90%	Moins de 50%, mais compensé par expectancy
+Expectancy	1.60%	Positif : chaque trade rapporte en moyenne 1.6%
+Kelly Criterion	0.16	Faible mais exploitable
+SQN	1.75	Bon système (entre 1.6 et 2.0 = acceptable à bon)
