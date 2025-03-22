@@ -3,7 +3,7 @@ on achète si le prix dépasse le plus haut précédent lorsque l'AD est au-dess
 si le prix casse le plus bas précédent avec un AD sous sa moyenne et un Volume Delta négatif chaque position est protégée par un stoploss 
 sur l'extrême inverse et un takeprofit fixé au double de la distance du stop
 
-actif = BTC/USD
+Actif = BTC/USD
 Timeframe = 1h
 
 Backtest sur 150 semaines
