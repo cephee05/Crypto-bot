@@ -15,3 +15,11 @@ Probabilité de perte: 26.00%
 Drawdown moyen: -30.55%
 Max Drawdown observé: -13.46%
 
+Walk_Forward Equity Curves
+![image](https://github.com/user-attachments/assets/83ae23b8-29cf-4dde-960f-19657e751255)
+Walk-Forward Results:
+Segment 1: Final Equity=107767.73, Expectancy=1.55%, Return=7.77%, MaxDD=-4.42%   
+Segment 2: Final Equity=119989.39, Expectancy=3.65%, Return=19.99%, MaxDD=-8.74%  
+Segment 3: Final Equity=68913.99, Expectancy=-4.26%, Return=-31.09%, MaxDD=-32.71%
+Segment 4: Final Equity=89597.08, Expectancy=-1.43%, Return=-10.40%, MaxDD=-23.55%
+Segment 5: Final Equity=125557.65, Expectancy=2.54%, Return=25.56%, MaxDD=-17.01% 
