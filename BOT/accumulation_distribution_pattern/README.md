@@ -7,4 +7,11 @@ sur l'extrême inverse et un takeprofit fixé au double de la distance du stop
 
 MonteCarlos Simulation GRAPH
 ![image](https://github.com/user-attachments/assets/859b65a2-d7f2-4ced-9c1a-e1b8c9ba6426)
+Moyenne du capital final: 127931.69
+Médiane du capital final: 130259.73
+Quantile 5%: 89534.31
+Quantile 95%: 170356.46
+Probabilité de perte: 26.00%
+Drawdown moyen: -30.55%
+Max Drawdown observé: -13.46%
 
