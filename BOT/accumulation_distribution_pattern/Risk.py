@@ -1,1 +1,2 @@
-
+'''
+condition du killswitch
