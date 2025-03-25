@@ -22,22 +22,8 @@ Avg. Drawdown Duration       55 days 03:00:00
 Win Rate [%]                         48.97959
 Best Trade [%]                       25.78424
 Worst Trade [%]                      -7.60714
-Avg. Trade [%]                        0.80961
-Avg. Trade [%]                        0.80961
-Avg. Trade [%]                        0.80961
-Avg. Trade [%]                        0.80961
-Avg. Trade [%]                        0.80961
 Max. Trade Duration           6 days 16:00:00
 Avg. Trade [%]                        0.80961
-Avg. Trade [%]                        0.80961
-Max. Trade Duration           6 days 16:00:00
-Avg. Trade [%]                        0.80961
-Max. Trade Duration           6 days 16:00:00
-Avg. Trade [%]                        0.80961
-Avg. Trade [%]                        0.80961
-Avg. Trade [%]                        0.80961
-Max. Trade Duration           6 days 16:00:00
-Avg. Trade Duration           3 days 07:00:00
 Profit Factor                          1.6156
 Expectancy [%]                        0.98964
 SQN                                    1.1006
