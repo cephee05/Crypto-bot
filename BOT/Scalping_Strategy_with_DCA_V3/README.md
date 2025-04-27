@@ -44,3 +44,6 @@ Seg 2: Equity=141543.09, Expectancy=1.20%, Ret=28.68%, MaxDD=-6.76%
 Seg 3: Equity=110086.74, Expectancy=0.40%, Ret=0.08%, MaxDD=-9.94%
 Seg 4: Equity=128868.40, Expectancy=0.75%, Ret=17.15%, MaxDD=-5.08%
 Seg 5: Equity=108923.85, Expectancy=0.39%, Ret=-0.98%, MaxDD=-14.33%
+-------------------------------------------------------------------------------------------------
+Conclusion 
+Dans l’ensemble, la stratégie produit un PnL attractif avec un risque maîtrisé (drawdowns compris entre –12 % et –19 %), reste profitable sous bootstrap, et garde une certaine constance en Walk-Forward malgré une petite faiblesse sur un des segments
