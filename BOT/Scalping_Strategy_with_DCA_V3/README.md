@@ -26,5 +26,12 @@ Distribution du Capital Final
 ![image](https://github.com/user-attachments/assets/51fbfe98-d55f-4917-a871-35ad94734cde)
 Monte Carlo Equity Curves
 ![image](https://github.com/user-attachments/assets/f16d8c33-27e1-468b-b0bc-5d355fecb4bb)
-
+Moyenne du capital final: 448990.29
+Médiane du capital final: 446980.38
+Quantile 5%: 369967.23
+Quantile 95%: 527195.46
+Drawdown moyen: -17.98%
+Max Drawdown observé: -12.24%
+Moyenne final equity: 448990.29
+Probabilité de perte: 0.00%
 --------------------------------------------------------------------------------------------------
