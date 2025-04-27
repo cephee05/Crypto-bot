@@ -19,9 +19,11 @@ Voici la stratégie en résumé :
 Cette approche combine robustesse (EMA/RSI/MACD), opportunités de retournement (divergences + Bollinger) et gestion de risque dynamique via DCA et sorties par paliers.
 
 --------------------------------------------------------------------------------------------------
+
 BACKTEST
 ![image](https://github.com/user-attachments/assets/bf7605f5-8ac1-4ac4-9ce2-44b8ebda8b44)
 --------------------------------------------------------------------------------------------------
+
 Distribution du Capital Final
 ![image](https://github.com/user-attachments/assets/51fbfe98-d55f-4917-a871-35ad94734cde)
 Monte Carlo Equity Curves
