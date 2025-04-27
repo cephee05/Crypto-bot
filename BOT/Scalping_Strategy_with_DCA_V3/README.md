@@ -35,3 +35,9 @@ Max Drawdown observé: -12.24%
 Moyenne final equity: 448990.29
 Probabilité de perte: 0.00%
 --------------------------------------------------------------------------------------------------
+=== Walk-Forward ===
+Seg 1: Equity=141599.64, Expectancy=1.35%, Ret=28.73%, MaxDD=-5.39%
+Seg 2: Equity=141543.09, Expectancy=1.20%, Ret=28.68%, MaxDD=-6.76%
+Seg 3: Equity=110086.74, Expectancy=0.40%, Ret=0.08%, MaxDD=-9.94%
+Seg 4: Equity=128868.40, Expectancy=0.75%, Ret=17.15%, MaxDD=-5.08%
+Seg 5: Equity=108923.85, Expectancy=0.39%, Ret=-0.98%, MaxDD=-14.33%
