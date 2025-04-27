@@ -38,6 +38,7 @@ Moyenne final equity: 448990.29
 Probabilité de perte: 0.00%
 --------------------------------------------------------------------------------------------------
 === Walk-Forward ===
+![image](https://github.com/user-attachments/assets/3422a792-722b-454e-a135-db5443167a66)
 Seg 1: Equity=141599.64, Expectancy=1.35%, Ret=28.73%, MaxDD=-5.39%
 Seg 2: Equity=141543.09, Expectancy=1.20%, Ret=28.68%, MaxDD=-6.76%
 Seg 3: Equity=110086.74, Expectancy=0.40%, Ret=0.08%, MaxDD=-9.94%
