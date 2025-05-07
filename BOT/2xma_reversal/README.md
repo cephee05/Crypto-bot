@@ -19,6 +19,7 @@ Fermeture anticipée :
 En position short, si le prix franchit la SMA lente à la hausse, on clôture pour éviter un retournement complet.
 
 ====================================================================
+
 Backtest // BTC 5 min // 100 weeks
 ![image](https://github.com/user-attachments/assets/fa1a3af9-75df-427d-b887-6afa6db63713)
 Start                     2023-06-05 16:45:00
