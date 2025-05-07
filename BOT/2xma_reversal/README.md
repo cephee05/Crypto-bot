@@ -17,6 +17,7 @@ Pas de pyramiding ; une seule position à la fois (exclusion d’ordres multiple
 Fermeture anticipée :
 
 En position short, si le prix franchit la SMA lente à la hausse, on clôture pour éviter un retournement complet.
+
 ====================================================================
 Backtest // BTC 5 min // 100 weeks
 ![image](https://github.com/user-attachments/assets/fa1a3af9-75df-427d-b887-6afa6db63713)
@@ -53,6 +54,7 @@ _strategy                  MAReversalStrategy
 _equity_curve                             ...
 _trades                       Size  EntryB...
 dtype: object
+
 ====================================================================
 Monte Carlo Equity Cruves (50runs)
 ![image](https://github.com/user-attachments/assets/fc6413f4-6463-438a-8f00-5573d4aa5733)
