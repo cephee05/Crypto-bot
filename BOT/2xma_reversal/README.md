@@ -40,7 +40,7 @@ Max. Drawdown [%]                   -24.43714
 Avg. Drawdown [%]                    -0.70008
 Max. Drawdown Duration      242 days 09:00:00
 Avg. Drawdown Duration        2 days 14:51:00
-# Trades                                   79
+Trades                                   79
 Win Rate [%]                         54.43038
 Best Trade [%]                       10.08658
 Worst Trade [%]                     -10.00791
