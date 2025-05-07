@@ -56,5 +56,6 @@ _trades                       Size  EntryB...
 dtype: object
 
 ====================================================================
+
 Monte Carlo Equity Cruves (50runs)
 ![image](https://github.com/user-attachments/assets/fc6413f4-6463-438a-8f00-5573d4aa5733)
