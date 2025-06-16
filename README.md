@@ -4,11 +4,11 @@ I regularly develop various trading bots (scripts, automations, optimizations) a
 
 
 crypto-bot/
-├── bots/                            # All trading's algo
-├── data/                            # Fetch the data
-├── backtest/                        # Explorations, analyses, advance backtests 
-├── requirements.txt
-└── README.md
+├── bots/             # All trading algorithms
+├── data/             # Data fetch or CSV samples
+├── backtest/         # Explorations, analyses, advanced backtests
+├── requirements.txt  # Python dependencies
+└── README.md         # Project overview and instruction
 
 
 ⚠️ **Disclaimer:**  
