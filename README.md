@@ -5,7 +5,6 @@ I regularly develop various trading bots (scripts, automations, optimizations) a
 
 crypto-bot/
 ├── bots/                            # All trading's algo
-│   
 ├── data/                            # Fetch the data
 ├── backtest/                        # Explorations, analyses, advance backtests 
 ├── requirements.txt
