@@ -5,9 +5,11 @@ I regularly develop various trading bots (scripts, automations, optimizations) a
 
 * **crypto-bot/**
 
-  * **bots/**  # All trading algorithms
+  * **bots/**
+    *  All trading algorithms
 
-  * **data/**  # Data fetch scripts or example CSVs
+  * **data/**
+    *  Data fetch scripts or example CSVs
     
   * **backtest/** :
 
