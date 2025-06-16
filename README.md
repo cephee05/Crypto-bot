@@ -3,20 +3,12 @@
 I regularly develop various trading bots (scripts, automations, optimizations) and share the most relevant ones here.
 
 
-* **crypto-bot/** (racine du projet)
+* **crypto-bot/**
 
-  * **bots/**
+  * **bots/**  # All trading algorithms
 
-    * Chaque stratégie dans son propre dossier
-
-      * `config.py`
-      * `strategy.py`
-      * `backtest.py`
-      * `README.md`
-  * **data/**
-
-    * **raw/** : CSV bruts (OHLC 1m)
-    * **processed/** : CSV de features générés par `src/train.py`
+  * **data/**  # Data fetch scripts or example CSVs
+    
   * **backtest/** :
 
     * Scripts ou notebooks pour Monte Carlo, Walk-Forward, analyses avancées
