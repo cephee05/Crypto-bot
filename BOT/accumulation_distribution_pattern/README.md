@@ -1,60 +1,107 @@
-Cette stratégie cherche des cassures sur une période de 20 bougies en surveillant l'AccumulationDistribution cumulée et le Volume Delta
-on achète si le prix dépasse le plus haut précédent lorsque l'AD est au-dessus de sa moyenne et que le Volume Delta est positif on vend 
-si le prix casse le plus bas précédent avec un AD sous sa moyenne et un Volume Delta négatif chaque position est protégée par un stoploss 
-sur l'extrême inverse et un takeprofit fixé au double de la distance du stop
+Breakout Strategy on BTC/USD (1h)
+This strategy looks for 20-bar breakouts filtered by two volume-based oscillators:
 
+Accumulation/Distribution (A/D): Cumulative A/D must be above its moving average for long entries (below for shorts).
+
+Volume Delta: Net buying volume must be positive for longs (negative for shorts).
+
+Entry Conditions
+
+Long: Price breaks above the prior 20-bar high, A/D > its MA, Volume Delta > 0.
+
+Short: Price breaks below the prior 20-bar low, A/D < its MA, Volume Delta < 0.
+
+Exit & Risk Management
+
+Stop-loss at the opposite 20-bar extreme.
+
+Take-profit set at 2× stop distance.
 Actif = BTC/USD
 Timeframe = 1h
 
 Backtest sur 150 semaines
 ![image](https://github.com/user-attachments/assets/d497763a-78b7-42e2-9b2b-54695e1536fb)
 
+Final Equity: $168,910.08
 
+CAGR: 16.08%
+
+Annual Volatility: 20.90%
+
+Sharpe Ratio: 0.77
+
+Sortino Ratio: 1.38
+
+Calmar Ratio: 1.12
+
+Max Drawdown: –14.34%
+
+Profit Factor: 1.54
+
+Win Rate: 44.9%
+
+Expectancy: 1.60% per trade
+
+Kelly Criterion: 0.16
+
+SQN: 1.75
+
+Interpretation: Over three years, the system delivered a solid 16% annualized return with healthy risk-adjusted metrics. The 14% max drawdown is modest, and the >1.3 profit factor signals reliability despite a sub-50% win rate.
 
 MonteCarlos Simulation GRAPH
 ![image](https://github.com/user-attachments/assets/859b65a2-d7f2-4ced-9c1a-e1b8c9ba6426)
-Moyenne du capital final: 127931.69
-Médiane du capital final: 130259.73
-Quantile 5%: 89534.31
-Quantile 95%: 170356.46
-Probabilité de perte: 26.00%
-Drawdown moyen: -30.55%
-Max Drawdown observé: -13.46%
+Median Final Capital: $130,259.73
+
+5th Percentile: $89,534.31
+
+95th Percentile: $170,356.46
+
+Probability of Loss: 26.0%
+
+Average Drawdown: –30.6%
+
+Worst Drawdown: –13.5%
+
+Interpretation: Even under random sequencing of trades, there’s a ~74% chance of ending above break-even. Tail risks exist (5% worst ≈ –10.5% to –13.5%), but typical outcomes cluster around the backtested result.
 
 Walk_Forward Equity Curves
 ![image](https://github.com/user-attachments/assets/83ae23b8-29cf-4dde-960f-19657e751255)
-Walk-Forward Results:
-Segment 1: Final Equity=107767.73, Expectancy=1.55%, Return=7.77%, MaxDD=-4.42%   
-Segment 2: Final Equity=119989.39, Expectancy=3.65%, Return=19.99%, MaxDD=-8.74%  
-Segment 3: Final Equity=68913.99, Expectancy=-4.26%, Return=-31.09%, MaxDD=-32.71%
-Segment 4: Final Equity=89597.08, Expectancy=-1.43%, Return=-10.40%, MaxDD=-23.55%
-Segment 5: Final Equity=125557.65, Expectancy=2.54%, Return=25.56%, MaxDD=-17.01% 
+3. Walk-Forward Analysis
+Segment	Final Equity	Expectancy	Return	Max DD
+1	$107,767.73	1.55%	+7.77%	–4.42%
+2	$119,989.39	3.65%	+19.99%	–8.74%
+3	$68,913.99	–4.26%	–31.09%	–32.71%
+4	$89,597.08	–1.43%	–10.40%	–23.55%
+5	$125,557.65	2.54%	+25.56%	–17.01%
 
-ANALYSE 
-Equity Final	$168,910.08	Performance très correcte
-CAGR	16.08%	Excellent taux composé sur 3 ans
-Annual Return	16.06%	Aligné avec le CAGR, pas trop volatile
-Volatility (Ann.)	20.90%	Volatilité modérée
-Sharpe Ratio	0.77	Correct, mais améliorable
-Sortino Ratio	1.38	Bon, moins pénalisé par les drawdowns
-Calmar Ratio	1.12	👍 Supérieur à 1 : acceptable
-Max. Drawdown	-14.34%	Plutôt sain, si stable
-Profit Factor	1.54	Très bon (au-delà de 1.3, c’est fiable)
-Win Rate	44.90%	Moins de 50%, mais compensé par expectancy
-Expectancy	1.60%	Positif : chaque trade rapporte en moyenne 1.6%
-Kelly Criterion	0.16	Faible mais exploitable
-SQN	1.75	Bon système (entre 1.6 et 2.0 = acceptable à bon)
 
-📌 Conclusion synthétique
-✅ Points forts :
+Interpretation: Performance is regime-dependent. Segments 1–2 and 5 outperform; segments 3–4 underperform during choppy or trending bear markets. Overall robustness holds, but parameter re-optimization or regime filters could reduce drawdowns in adverse segments.
+Key Takeaways
+✅ Strengths
+Attractive Annual Return (>15% CAGR)
 
-Bon rendement annuel (>15%)
-Bon Calmar et Sortino
-Bon profit factor
-Bonne gestion du risque moyen
+Solid Risk-Adjusted Metrics (Sharpe 0.77, Sortino 1.38, Calmar >1)
 
-⚠️ Points à surveiller :
+Healthy Profit Factor (1.54)
 
-Volatilité du système (surtout segment 3)
-26% de probabilité de finir en perte (à minimiser)
-Drawdown moyen élevé (-30% !), à confirmer/optimiser
+Controlled Max Drawdown (–14.3%)
+
+Reasonable Kelly for position sizing (0.16)
+
+⚠️ Risks & Improvements
+Trade Volatility: 26% chance of ending in a loss (Monte Carlo).
+
+Average Drawdown (~–30%) suggests occasional large underwater periods.
+
+Regime Sensitivity: Significant underperformance in certain walk-forward segments.
+
+Win Rate <50% requires strict risk management and psychological resilience.
+
+Possible Enhancements
+Regime Filter: Incorporate trend / volatility regimes (e.g., ADX or realized vol) to reduce trades in adverse segments.
+
+Adaptive Parameters: Dynamically adjust lookback or stop distances based on rolling volatility.
+
+Hybrid Signals: Combine with momentum or mean-reversion overlays to smooth returns.
+
+Machine-Learning Filter: Use a simple classifier (e.g., logistic regression) on volume + AD patterns to pre-filter low-probability trades.
