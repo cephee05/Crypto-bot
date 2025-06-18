@@ -66,13 +66,16 @@ Interpretation: Even under random sequencing of trades, there’s a ~74% chance 
 
 Walk_Forward Equity Curves
 ![image](https://github.com/user-attachments/assets/83ae23b8-29cf-4dde-960f-19657e751255)
-3. Walk-Forward Analysis
-Segment	Final Equity	Expectancy	Return	Max DD
-1	$107,767.73	1.55%	+7.77%	–4.42%
-2	$119,989.39	3.65%	+19.99%	–8.74%
-3	$68,913.99	–4.26%	–31.09%	–32.71%
-4	$89,597.08	–1.43%	–10.40%	–23.55%
-5	$125,557.65	2.54%	+25.56%	–17.01%
+# Walk-Forward Results
+#
+# | Segment | Final Equity   | Expectancy | Return    | Max Drawdown |
+# |:-------:|---------------:|-----------:|----------:|-------------:|
+# | 1       | $107,767.73    |   1.55%    |   +7.77%  |      −4.42%  |
+# | 2       | $119,989.39    |   3.65%    |  +19.99%  |      −8.74%  |
+# | 3       |  $68,913.99    |  −4.26%    |  −31.09%  |     −32.71%  |
+# | 4       |  $89,597.08    |  −1.43%    |  −10.40%  |     −23.55%  |
+# | 5       | $125,557.65    |   2.54%    |  +25.56%  |     −17.01%  |
+
 
 
 Interpretation: Performance is regime-dependent. Segments 1–2 and 5 outperform; segments 3–4 underperform during choppy or trending bear markets. Overall robustness holds, but parameter re-optimization or regime filters could reduce drawdowns in adverse segments.
